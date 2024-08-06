@@ -1,0 +1,32 @@
+:root {
+    --cor-fundo: #01080E;
+    --cor-principal: #723172;
+    --cor-secundaria: #212333;
+    --cor-destaque: #d0b8ce;
+    --cor-texto: #FFFFFF;
+    --cor-sombra: #333;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    border-radius:10px;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+    text-shadow: var(--cor-sombra);
+}
